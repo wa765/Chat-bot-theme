@@ -1,0 +1,205 @@
+/* warna body dan font */
+
+body {
+    background: linear-gradient(180deg, #D5EEED 0%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* versi responsive */
+
+.nav-link:hover::after {
+    border-bottom: 2px solid #1AB0B0;
+    content: "";
+    display: block;
+    width: 10%;
+    margin-left: 0;
+    padding-top: 3px;
+    margin-bottom: -5px;
+    transition: 0.1s;
+}
+
+.btn-request {
+    margin-top: 10px;
+}
+
+.logo-bot {
+    width: 98px;
+    height: 48px;
+}
+
+.btn-request {
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: #2D2D2D;
+}
+
+
+/* bagian teks */
+
+.live {
+    font-size: 35px;
+    font-weight: 520;
+    line-height: 50px;
+    color: #2D2D2D;
+    letter-spacing: 0.1px;
+}
+
+.powered,
+.available {
+    font-size: 14px;
+    font-weight: normal;
+    color: #575A5A;
+}
+
+.available {
+    padding-top: 20px;
+}
+
+.btn-kostum {
+    width: 141px;
+    height: 44px;
+    background: #FF7443;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.btn-kostum:hover {
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* remove outline button borders */
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.hero1 {
+    width: 500px;
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /* bagian navbar transisi */
+    .nav-link:hover::after {
+        border-bottom: 3px solid #1AB0B0;
+        content: "";
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding-top: 2px;
+        margin-bottom: -5px;
+        transition: 0.1s;
+    }
+    .logo-bot {
+        width: 100px;
+        height: 45px;
+    }
+    .navbar-nav a {
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+    .btn-request {
+        border-radius: 10px;
+        width: 151px;
+        height: 39px;
+        font-size: 14px;
+        color: #2D2D2D;
+        margin-top: 10px;
+    }
+    /* bagian hero  */
+    .live {
+        font-size: 40px;
+        line-height: 78px;
+        letter-spacing: 0.1px;
+        font-weight: 600;
+        color: #2D2D2D;
+        margin-top: 60px;
+    }
+    .powered,
+    .available {
+        font-weight: normal;
+        font-size: 14px;
+        color: #575A5A;
+        line-height: 24px;
+    }
+    .available {
+        padding-top: 25px;
+    }
+    .btn-kostum {
+        width: 151px;
+        height: 44px;
+        background: #FF7443;
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+        border-radius: 12px;
+        margin-top: 10px;
+    }
+    .btn-kostum:hover {
+        color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /* remove outline button borders */
+    .btn:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    /* bagian hero gambar */
+    .hero1 {
+        width: 710px;
+        float: right;
+        position: absolute;
+        margin-top: -50px;
+    }
+    /* bagian icon  */
+    .carousel-inner {
+        display: inline-block;
+    }
+    .bukalapak {
+        width: 173px;
+        height: 30px;
+        margin: auto;
+        display: inline-block;
+    }
+    .google {
+        width: 180px;
+        height: 70px;
+        margin: auto;
+        display: inline-block;
+    }
+    .shoope {
+        width: 180px;
+        height: 70px;
+        margin: auto;
+        display: inline-block;
+    }
+    .tokopedia {
+        width: 150px;
+        height: 46px;
+        margin: auto;
+        display: inline-block;
+    }
+    .gojek {
+        width: 150px;
+        height: 40px;
+        margin: auto;
+        display: inline-block;
+    }
+    .microsoft {
+        width: 180px;
+        height: 70px;
+        margin: auto;
+        display: inline-block;
+    }
+}
